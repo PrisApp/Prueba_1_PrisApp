@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var result: UILabel!
+    @IBOutlet weak var name: UITextField!
+    @IBOutlet weak var lastName: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +26,13 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func enterName(sender: AnyObject) {
+        result.text = name.text
+    }
+    
+    @IBAction func enterLastName(sender: AnyObject) {
+        result.text = lastName.text
+        view.endEditing(true)
+    }
 }
 

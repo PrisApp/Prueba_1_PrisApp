@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					84325C381F0C182B000CCB92 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4C672Y8GYE;
 					};
 					84325C4C1F0C182C000CCB92 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -398,22 +399,28 @@
 		84325C621F0C182C000CCB92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon1;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Prueba1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Pris10com.nextu.iosDeveloper.Prueba1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		84325C631F0C182C000CCB92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon1;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Prueba1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Pris10com.nextu.iosDeveloper.Prueba1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +489,7 @@
 				84325C631F0C182C000CCB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84325C641F0C182C000CCB92 /* Build configuration list for PBXNativeTarget "Prueba1Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +498,7 @@
 				84325C661F0C182C000CCB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84325C671F0C182C000CCB92 /* Build configuration list for PBXNativeTarget "Prueba1UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				84325C691F0C182C000CCB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
